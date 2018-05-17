@@ -23,24 +23,24 @@ nav {
 }
 
 nav a {
-    font-size: 1.5em;
+    font-size: 1.3em;
     letter-spacing: 2px;
     text-decoration: none;
     color: #000;
-    float: left;
-    padding: 25px;
+    display: block;
+    padding: 20px;
+    line-height: 40px;
     border-bottom: 2px solid transparent;
     position: relative;
 }
 
 nav a:hover {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #7D2382;
     transition: 1s, easy-out;
     transform: translateX(20px);
 }
 
 #myBtn {
-
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -70,10 +70,20 @@ h1 {
     font-family: 'Great Vibes', cursive;
 }
 
+h1:hover {
+    text-shadow: 3px 4px 9px #222;
+    transform: scale(1.05);
+}
+
 p {
-    letter-spacing: 2px;
-    line-height: 3;
+    letter-spacing: 3px;
+    line-height: 2.5;
     margin: 2% 20%;
+}
+
+.fa,
+.fas {
+    color: #7D2382;
 }
 
 .Portfolio {
@@ -88,8 +98,8 @@ p {
 }
 
 .Portfolio .images:hover {
-    transition: all .2s;
-    transform: scale(1.1);
+    transition: all .1s;
+    transform: scale(1.02);
     opacity: 1.0;
 }
 
@@ -105,29 +115,29 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-top: 4rem;
-    box-shadow: 3px 10px 10px #000;
+    background-color: #f7f9f8;
 }
 
 .aboutUs .info p {
-    font-size: 16px;
-    line-height: 1.9;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 .aboutUs .info:hover {
     transform: scale(1.1);
+    box-shadow: 3px 10px 10px #85909C;
+    background-color: #fff;
 }
 
 footer {
-
     margin-top: 4rem;
-    position: relative;
+    padding: 10px;
 }
 
-h2 {
+p.h {
     font-family: 'Great Vibes', cursive;
-    font-size: 4rem;
-    letter-spacing: 0.5rem;
-    position: absolute;
-    left: 5%;
-
+    font-size: 3rem;
+    letter-spacing: 0.3em;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #7D2382;
 }
